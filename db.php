@@ -14,8 +14,8 @@
         <?php while ($row = $stmt->fetch()) : ?>
             <div style="padding: 15px; ">
             
-                <a href="detail.php?pid=<?= $row["imgws5_num"] ?>">
-                    <img src='imgws5/<?= $row["imgws5_num"] ?>.jpg'>
+                <a href="detail.php?username=<?= $row["username"] ?>">
+                    <img src='imgws5/<?= $row["username"] ?>.jpg'>
                 </a>
                
                 <br> <br>ชื่อ :<?= $row["name"] ?><br>ที่อยู่ :<?= $row["address"] ?>
